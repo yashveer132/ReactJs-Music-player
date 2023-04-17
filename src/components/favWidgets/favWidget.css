@@ -1,0 +1,55 @@
+.widget-body{
+    width: 100%;
+    max-height: 17%;
+    padding: .85%;
+    cursor: pointer;
+}
+.widget-body:hover .widget-info,
+.widget-body:hover .widget-box{
+    transform: scale(1.02);
+    color: #fff;
+}
+.img-box{
+    width: 7%;
+    height: 100%;
+}
+.img-box img{
+    width: 50px;
+    height: 50px;
+}
+.widget-box{
+    width: calc(93% / 3);
+    color: rgb(255,253,135);
+    align-items: center;
+    margin: 0 2%;
+    transition: .5s ease-in-out;
+}
+.widget-box p{
+    font-weight: 500;
+}
+.widget-info{
+    width: calc(93% / 3);
+    color: rgb(255,253,135);
+    flex-direction: column;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.widget-info p{
+    margin: 0px;
+}
+.songName{
+    font-size: 18px;
+    font-weight: 500;
+}
+.artists{
+    font-size: 14px;
+    font-weight: 300;
+}
+p{
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}

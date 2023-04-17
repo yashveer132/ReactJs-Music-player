@@ -1,0 +1,28 @@
+.search-body{
+    width: 100%;
+    max-height: 17%;
+    padding: .85%;
+    cursor: pointer;
+}
+.search-body:hover .search-info{
+    transform: scale(1.02);
+}
+.search-info{
+    width: calc(93% / 3);
+    color: #ff359b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.search-info p{
+    margin: 0px;
+}
+.search-songName{
+    font-size: 18px;
+    font-weight: 500;
+}
+.search-artists{
+    font-size: 14px;
+    font-weight: 300;
+}

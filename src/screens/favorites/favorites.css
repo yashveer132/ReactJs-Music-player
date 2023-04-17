@@ -1,0 +1,76 @@
+.upper-body{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0,210,255,.1),rgba(0,210,255,.5),rgba(0,210,255,.1));
+    border-top-left-radius: 20px;
+}
+.upper-body .container{
+    position: relative;
+    top: 25px;
+    width: 95%;
+    height: 75%;
+    margin-left: 2%;
+    align-items: center;
+}
+.upper-body .container .outer-box{
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 80%;
+    height: 100%;
+    color: rgba(255, 53, 159);
+}
+.info p{
+    margin: 5px 10px;
+}
+.info .same{
+    font-weight: 500;
+}
+.like{
+    font-size: 70px;
+    font-weight: 700;
+}
+.upper-body .container .outer-box .boxHeart{
+    min-width: 180px;
+    min-height: 200px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(255, 53, 159,.7),rgba(255, 53, 159,.15));
+    box-shadow: 0 0 35px rgba(255, 53, 159,.4);
+}
+.lower-body{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+    background: rgba(255, 53, 159,.4);
+    box-shadow: 0 0 25px rgba(255, 53, 159,.4);
+    border-bottom-left-radius: 20px;
+    overflow-y: scroll;
+}
+.lower-body::-webkit-scrollbar{
+    display: none;
+}
+.lower-body-container{
+    width: 95%;
+    height: 95%;
+    margin: .5%;
+}
+.fav-container{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.playlist-pic{
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 20px;
+}

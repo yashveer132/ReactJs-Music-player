@@ -1,0 +1,25 @@
+.login-page{
+    background: rgba(0,210,255,.7);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.login-btn{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    background: rgba(255,53,155,.6);
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    margin-top: 20%;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}

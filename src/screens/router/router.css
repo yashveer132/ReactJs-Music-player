@@ -1,0 +1,9 @@
+.main-body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, #ff359b, #00d2ff);
+    display: flex;
+}
+.main-body.active{
+    height: 90vh;
+}
