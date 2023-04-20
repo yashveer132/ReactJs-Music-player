@@ -2,8 +2,11 @@
 
 
 Implemented various features including Library, Search, Home, and Liked Songs similar to those found in Spotify. Used the Spotify API to retrieve user data.
+
 Utilized Glassmorphism and Neumorphism design to give the application a modern and sleek look.
+
 Users can log in to their Spotify account via the application and access their playlists, favorites and liked songs.
+
 Users can play, pause, skip, and seek tracks, just like in the Spotify app.
 
 
